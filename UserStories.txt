@@ -1,0 +1,4 @@
+user wil be able to feed an image/video and the software will detect and lablel objects present in the file.
+User will be able to access the software through a web-interface 
+Interface will give the user an option to upload a file
+After processing, the results shall be displayed to the user
