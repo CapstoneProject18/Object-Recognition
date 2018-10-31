@@ -1,3 +1,4 @@
+![alt text](https://cdn-images-1.medium.com/max/1200/1*N8H9Z3RDQz2LW_NHh9l3Fw.jpeg)
 # Object-Recognition
 We are creating an Object Recognition Program which will be able to detect objects and accurately classify said objects in the given image file or video file with correct labels. We will implement neural networks in our project.
 Our project aims to utilize the full potential of geometric cues and exploit them to extract other features in a robust, computationally efficient manner.
