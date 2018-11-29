@@ -1,1 +1,1 @@
-These are the feature vector values we have used for classifying flowers in 5 different categories
+These are the feature vector values we have used to retrain our models to be able to classify them in different labels
