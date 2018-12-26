@@ -1,0 +1,32 @@
+************* Module FirstDetection
+FirstDetection.py:8:21: C0326: No space allowed after bracket
+detector.setModelPath( os.path.join(execution_path , "DataTrained.h5"))
+                     ^ (bad-whitespace)
+FirstDetection.py:8:51: C0326: No space allowed before comma
+detector.setModelPath( os.path.join(execution_path , "DataTrained.h5"))
+                                                   ^ (bad-whitespace)
+FirstDetection.py:10:0: C0301: Line too long (178/100) (line-too-long)
+FirstDetection.py:10:85: C0326: No space allowed before comma
+detections = detector.detectObjectsFromImage(input_image=os.path.join(execution_path , "input/image.jpg"), output_image_path=os.path.join(execution_path , "output/imagenew.jpg"))
+                                                                                     ^ (bad-whitespace)
+FirstDetection.py:10:153: C0326: No space allowed before comma
+detections = detector.detectObjectsFromImage(input_image=os.path.join(execution_path , "input/image.jpg"), output_image_path=os.path.join(execution_path , "output/imagenew.jpg"))
+                                                                                                                                                         ^ (bad-whitespace)
+FirstDetection.py:13:29: C0326: No space allowed before comma
+    print(eachObject["name"] , " : " , eachObject["percentage_probability"] )
+                             ^ (bad-whitespace)
+FirstDetection.py:13:37: C0326: No space allowed before comma
+    print(eachObject["name"] , " : " , eachObject["percentage_probability"] )
+                                     ^ (bad-whitespace)
+FirstDetection.py:13:76: C0326: No space allowed before bracket
+    print(eachObject["name"] , " : " , eachObject["percentage_probability"] )
+                                                                            ^ (bad-whitespace)
+FirstDetection.py:1:0: C0103: Module name "FirstDetection" doesn't conform to snake_case naming style (invalid-name)
+FirstDetection.py:1:0: C0111: Missing module docstring (missing-docstring)
+FirstDetection.py:4:0: C0103: Constant name "execution_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+FirstDetection.py:6:0: C0103: Constant name "detector" doesn't conform to UPPER_CASE naming style (invalid-name)
+FirstDetection.py:10:0: C0103: Constant name "detections" doesn't conform to UPPER_CASE naming style (invalid-name)
+FirstDetection.py:2:0: C0411: standard import "import os" should be placed before "from imageai.Detection import ObjectDetection" (wrong-import-order)
+
+------------------------------------
+Your code has been rated at 6.00/10
